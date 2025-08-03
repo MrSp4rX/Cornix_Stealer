@@ -1,0 +1,205 @@
+.blog-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.blog-inner-container {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.blog-post {
+    margin-bottom: 56px;
+    padding: 0 12px;
+}
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+.blog-post h2 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.blog-post h5 {
+    font-size: 12px;
+    padding-top: 8px;
+}
+.blog-post p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8992A3;
+}
+.blog-post .calendar-icon, .first-blog-post .blog-post .calendar-icon {
+    width: 10px;
+    height: auto;
+}
+.blog-post-page .calendar-icon {
+    width: 12px;
+    height: auto;
+}
+.blog-post-title-wrapper {
+    height: 216px;
+    padding: 24px 0 16px 0;
+}
+.first-blog-post .blog-post img, .blog-post-main-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.first-blog-post .blog-post h2 {
+    font-size: 28px;
+    line-height: 42px;
+}
+.first-blog-post .blog-post h5 {
+    font-size: 14px;
+    padding-top: 12px;
+}
+.first-blog-post .blog-post p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8992A3;
+}
+.first-blog-post .blog-post button {
+    padding: 10px 22px;
+    font-size: 14px;
+}
+.first-blog-post .blog-post-title-wrapper {
+    height: auto;
+}
+.blog-post-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.blog-post-page-wrapper {
+    padding: 0 12px;
+}
+.blog-post-page strong {
+    font-weight: 500 !important;
+}
+.blog-post-page h2 {
+    font-weight: 500 !important;
+    margin-top: 36px;
+}
+.blog-post-page h5 {
+    font-size: 14px;
+    padding-top: 12px;
+}
+.blog-post-page li {
+    padding-bottom: 16px;
+    font-weight: 300;
+}
+.blog-post-page li:before {
+    content: url("../images/design/circle-check-regular.svg");
+    display: inline-block;
+    width: 16px;
+    padding-right: 8px;
+    top: 2px;
+    position: relative;
+}
+.blog-post-page li, .blog-post-page p {
+    line-height: 28px;
+}
+.blog-post-page a {
+    color: #5890F9;
+}
+.related-articles-wrapper {
+    margin-top: 88px;
+}
+.related-articles-title {
+    padding: 0 12px 36px;
+}
+.related-articles-list h2 {
+    margin-top: 0;
+}
+.related-articles-list p {
+    display: none;
+}
+.related-articles-list .blog-post-title-wrapper {
+    height: 85px !important;
+}
+@media (max-width: 975px) {
+    .blog-post {
+        padding: 0 8px;
+    }
+    .small-blog-post .blog-post h2 {
+        font-size: 16px;
+    }
+    .small-blog-post .blog-post p {
+        line-height: 22px;
+    }
+}
+@media (max-width: 900px) {
+    .blog-post-title-wrapper {
+        height: 240px;
+    }
+    .blog-post-page {
+        padding-top: 40px;
+    }
+    .blog-post-title-wrapper {
+        padding-top: 16px;
+    }
+    .blog-post h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .small-blog-post .blog-post p {
+        margin: 4px 0;
+    }
+    .first-blog-post .blog-post img, .blog-post-main-image img {
+        height: 300px;
+    }
+}
+@media (max-width: 800px) {
+    .blog-container .one-third {
+        width: 50%;
+    }
+    .small-blog-post .blog-post-title-wrapper {
+        height: 175px;
+    }
+}
+@media (max-width: 700px) {
+    .small-blog-post .blog-post-title-wrapper {
+        height: 200px;
+    }
+}
+@media (max-width: 650px) {
+    .first-blog-post .blog-post img, .blog-post-main-image img {
+        height: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .blog-post {
+        padding: 6px;
+    }
+    .small-blog-post .blog-post p {
+        display: none;
+    }
+    .small-blog-post .blog-post-title-wrapper {
+        height: 70px;
+    }
+    .small-blog-post .blog-post h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .first-blog-post .blog-post h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 450px) {
+    .first-blog-post .blog-post img, .blog-post-main-image img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 375px) {
+    .blog-post-page h5 {
+        font-size: 12px;
+    }
+    .small-blog-post .blog-post-title-wrapper {
+        height: 85px;
+    }
+    .first-blog-post .blog-post p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,93 @@
+#about-us .section img {
+    border-radius: 8px;
+}
+.philosophy-section h2, .team-section h2, .careers-title {
+    font-size: 32px;
+}
+.philosophy-section h2, .team-section h2 {
+    margin-bottom: 64px;
+}
+.philosophy-item {
+    max-width: 400px;
+}
+.philosophy-item h3 {
+    padding-top: 16px;
+    font-size: 24px;
+    max-width: 240px;
+    margin: 0 auto;
+}
+.philosophy-item p {
+    padding: 0 4%;
+}
+.members {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.member img {
+    border-radius: 8px;
+}
+.member h3 {
+    font-size: 20px;
+    margin: 12px 0 4px 0;
+}
+.member h4 {
+    font-weight: 300;
+    max-width: 140px;
+    margin: 0 auto;
+}
+.about-us-careers {
+    padding: 2% 0 4% 0;
+}
+@media (max-width: 1100px) {
+    .philosophy-item h3 {
+        font-size: 20px;
+        max-width: 200px;
+        margin: 0 auto
+    }
+}
+@media (max-width: 900px) {
+    .philosophy-item h3 {
+        font-size: 16px;
+    }
+    .philosophy-item p {
+        padding: 0;
+    }
+}
+@media (max-width: 600px) {
+    .team-section h2 {
+        margin-bottom: 40px;
+    }
+    .members {
+        max-width: 320px;
+    }
+    .member img {
+        width: 140px;
+        height: auto;
+    }
+    .our-philosophy {
+        flex-direction: column;
+    }
+    .our-philosophy .item {
+        flex-direction: row;
+    }
+    .our-philosophy .item p {
+        max-width: 100%;
+    }
+    .philosophy-item {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .philosophy-item img {
+        margin-right: 24px;
+    }
+    .philosophy-item p {
+        text-align: start !important;
+    }
+    .philosophy-item h3 {
+        max-width: 100%;
+        text-align: start !important;
+    }
+    .philosophy-section h2 {
+        margin-bottom: 32px;
+    }
+}

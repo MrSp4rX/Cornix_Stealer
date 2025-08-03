@@ -1,0 +1,529 @@
+.main-section {
+    min-height: 300px;
+    height: 100%;
+}
+.homepage-main-animation {
+    position: relative;
+}
+.homepage-main-image {
+    aspect-ratio: 1661 / 1104;
+    width: 100%;
+    height: auto;
+}
+.main-section .left-section-content {
+    transform: translateY(-7%);
+}
+.main-section h1 {
+    max-width: 600px;
+    letter-spacing: 0.8px;
+}
+.main-section p {
+    max-width: 450px;
+    line-height: 28px;
+}
+.main-section span {
+    font-size: 18px;
+}
+.main-section img {
+    height: auto;
+    max-width: 100%;
+}
+.play-video-button {
+    width: 44px;
+    height: 44px;
+    margin: 0 4px 0 16px;
+}
+.home-page-signals-steps {
+    min-height: 400px;
+}
+.signal-step-item {
+    padding-top: 4%;
+}
+.signal-step-item h3 {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 16px 8px 0;
+}
+.signals-animation {
+    aspect-ratio: 700 / 617;
+}
+.powerful-bots-item {
+    padding: 4% 4% 0 0;
+}
+#bots .half-section:not(.section-main-content) img {
+    aspect-ratio: 125 / 78;
+}
+#admin .half-section:not(.section-main-content) img {
+    aspect-ratio: 258 / 173;
+}
+#home-cta-section .half-section:not(.section-main-content) img {
+    aspect-ratio: 61 / 125;
+}
+#bots, #home-reviews {
+    margin-bottom: -75px;
+}
+#exchanges, #pricing {
+    padding-top: 75px;
+}
+#exchanges {
+    background: #FFFFFF;
+}
+.exchanges-list img {
+    filter: grayscale(100%);
+}
+.exchanges-list img:hover {
+    filter: grayscale(0%) opacity(100%) !important;
+}
+.features-section h2 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.features-section h4 {
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.feature-item {
+    padding-bottom: 36px;
+}
+.feature-item p {
+    padding: 0 8%;
+}
+.admin-section h2:after {
+    content: "?";
+    color: #5890F9;
+}
+.admin-section img {
+    width: 600px;
+}
+.pricing-title {
+    font-size: 48px;
+}
+.pricing-section p {
+    max-width: 500px;
+}
+.plan-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    padding: 0 0 16px 16px;
+}
+.plan-card {
+    height: 100%;
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
+.plan-card-inner {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.plan-card h2 {
+    font-size: 42px;
+    font-weight: 400;
+}
+.dollar {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 4px 4px 0;
+}
+.plan-card h2:after {
+    content: "/month";
+    color: #626262;
+    font-size: 16px;
+    font-weight: 300;
+}
+.plan-card h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+.plan-card button {
+    padding: 8px 0;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.plan-card li {
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.pricing-section li {
+    font-weight: 300;
+}
+.pricing-section li:before {
+    content: url('../images/design/check-solid.svg');
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: auto;
+    top: 2px;
+    padding-right: 8px;
+}
+.premium-plan-card li:before {
+    content: url('../images/design/circle-check-solid.svg');
+    top: 1px;
+    width: 13px;
+}
+.pricing-top-section .blue-tag {
+    margin: 14px 0 20px;
+}
+.annually-subscription-plans .blue-tag {
+    margin: 8px 0 12px;
+    padding: 3px 16px;
+}
+.pricing-section strong {
+    font-weight: 500;
+}
+.toggle-wrapper {
+    border-radius: 8px;
+    border: 1px solid rgba(137, 146, 163, 0.19);
+    padding: 4px;
+    display: inline-flex;
+    position: relative;
+}
+.duration-button {
+    padding: 6px 16px;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.35s;
+    border-radius: 6px;
+    color: #0D144E;
+}
+.duration-button:not(:last-of-type) {
+    margin-right: 4px;
+}
+.duration-button:hover {
+    background: rgba(137, 146, 163, 0.1);
+    color: #2E3D5C;
+}
+.selected-duration-button {
+    background: #5890F9 !important;
+    color: #FFFFFF !important;
+}
+.all-plans-features {
+    font-size: 14px;
+    max-width: 450px;
+    flex-wrap: wrap;
+}
+.popular-tag {
+    background: #EAF0FF;
+    color: #5890F9;
+    border-radius: 60px;
+    padding: 0 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px !important;
+    margin: 0 0 0 12px !important;
+    line-height: 24px !important;
+}
+#home-cta-section .section {
+    grid-gap: 20px;
+}
+#home-cta-section .file-wrapper {
+    overflow: hidden;
+    width: fit-content;
+}
+#home-cta-section .section-main-content {
+    width: 60%;
+}
+#home-cta-section h2 {
+    font-size: 42px;
+}
+#home-cta-section img {
+    transform: translateY(70px);
+}
+@media (max-width: 1250px) {
+    .signal-step-item h3 {
+        font-size: 16px;
+        padding: 16px 0 0;
+    }
+}
+@media (max-width: 1200px) {
+    .plan-cards {
+        grid-gap: 16px;
+    }
+}
+@media (min-width: 1150px) {
+    #exchanges .right-section-content {
+        transform: translateY(-20%);
+    }
+}
+@media (max-width: 1150px) {
+    #home-cta-section img {
+        transform: translateY(60px);
+    }
+}
+@media (max-width: 1100px) {
+    #main-section .section {
+        display: flex;
+        flex-direction: column;
+    }
+    #main-section .half-section {
+        width: 100%;
+    }
+    #main-section .homepage-main-animation {
+        width: 80%;
+    }
+    #main-section .left-section-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-section h1 {
+        max-width: 500px;
+    }
+    .main-section .left-section-content {
+        transform: none;
+        padding: 0;
+    }
+    #main-section .section-main-content {
+        padding-bottom: 48px;
+    }
+    .pricing-title {
+        font-size: 40px;
+    }
+    #home-cta-section h2 {
+        font-size: 36px;
+    }
+    .plan-card-inner {
+        padding: 24px;
+    }
+}
+@media (max-width: 1050px) {
+    .plan-card-inner {
+        padding: 20px;
+    }
+    .plan-card h2 {
+        font-size: 28px;
+    }
+    .plan-card h3 {
+        font-size: 20px;
+    }
+    .plan-card li {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .plan-card {
+        width: 275px !important;
+    }
+    .pricing-top-section {
+        padding-bottom: 24px;
+    }
+    .plan-card button {
+        font-size: 14px;
+    }
+}
+@media (max-width: 950px) {
+    .plan-cards-wrapper {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        height: auto;
+        padding: 16px 16px 20px;
+    }
+    .plan-cards-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .plan-cards-wrapper {
+        -ms-overflow-style: none;
+    }
+    #Premium-wrapper {
+        padding-right: 16px;
+    }
+}
+@media (max-width: 900px) {
+    .pricing-title {
+        font-size: 36px;
+    }
+    #home-cta-section .section {
+        flex-direction: row !important;
+        padding: 0 40px;
+    }
+    #exchanges .wonderplugingridgallery {
+        margin: 0 !important;
+    }
+}
+@media (max-width: 800px) {
+    #main-section .homepage-main-animation {
+        width: 90%;
+    }
+    #home-cta-section img {
+        max-height: 400px;
+        transform: translateY(50px);
+    }
+}
+@media (max-width: 600px) {
+    #main-section .homepage-main-animation {
+        width: 100%;
+    }
+    #main-section .section-main-content {
+        padding-bottom: 36px;
+    }
+    .duration-button {
+        font-size: 16px;
+    }
+    .signal-step-item .item-order-num-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .signal-step-item {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .home-page-signals-steps .signals-integration-steps .item {
+        align-items: center;
+    }
+    .signal-step-item .order-number {
+        margin: 0 16px 0 0;
+        min-width: 20px;
+    }
+    .features-section h2 {
+        padding-bottom: 36px;
+    }
+    .pricing-title {
+        font-size: 28px;
+    }
+    #home-cta-section .section {
+        padding: 40px 20px 0;
+        flex-direction: column !important;
+        text-align: center;
+        grid-gap: 0;
+    }
+    #home-cta-section .section-main-content, #home-cta-section .file-wrapper {
+        width: 100%;
+    }
+}
+@media (max-width: 675px) {
+    #main-features-section {
+        display: none;
+    }
+    #mobile-features-section {
+        display: block;
+        width: 100%;
+    }
+    .feature-item {
+        height: 220px;
+        margin-bottom: 0;
+    }
+    .features-section .button {
+        margin-top: 24px;
+    }
+    .feature-item p {
+        padding: 0;
+        max-width: 400px;
+    }
+    .centered-item {
+        padding: 0;
+    }
+    #features-slide {
+        margin: 0 auto;
+    }
+}
+@media (min-width: 675px) {
+    #main-features-section {
+        display: block;
+    }
+    #mobile-features-section {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .feature-item p {
+        max-width: 350px;
+    }
+    .blue-tag {
+        font-size: 12px;
+    }
+    .pricing-top-section {
+        padding-bottom: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .main-section span {
+        font-size: 16px;
+    }
+    .main-section .large-button {
+        padding: 10px 16px;
+    }
+    .play-video-button {
+        margin: 0 4px;
+    }
+    .feature-item {
+        height: 240px;
+    }
+    #home-cta-section h2 {
+        font-size: 28px;
+    }
+    .main-section p {
+        font-size: 14px;
+    }
+}
+#animated-exchange-1 {
+    position: absolute;
+    right: 6%;
+    top: 8%;
+    animation: upDown 3s ease-in-out infinite;
+    z-index: 3;
+    width: 16%;
+    aspect-ratio: 1;
+}
+#animated-exchange-2 {
+    position: absolute;
+    left: 14%;
+    top: -8%;
+    animation: downUp 4s ease-in-out infinite;
+    z-index: 3;
+    width: 14%;
+    aspect-ratio: 1;
+}
+#animated-exchange-3 {
+    position: absolute;
+    right: 24%;
+    bottom: 4%;
+    animation: downUp 4s ease-in-out infinite;
+    z-index: 3;
+    width: 14%;
+    aspect-ratio: 1;
+}
+#animated-exchange-4 {
+    position: absolute;
+    left: -6%;
+    bottom: 26%;
+    animation: upDown 3s ease-in-out infinite;
+    z-index: 3;
+    width: 15%;
+    aspect-ratio: 1;
+}
+@media (max-width: 600px) {
+    #animated-exchange-4 {
+        left: -4%;
+    }
+}
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes downUp {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}

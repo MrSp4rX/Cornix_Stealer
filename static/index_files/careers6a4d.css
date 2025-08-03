@@ -1,0 +1,140 @@
+.careers-container {
+    padding: 0 16px;
+}
+.careers-inner-container {
+    max-width: 1000px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4% 0 8% 0;
+}
+.career-card {
+    padding: 40px 0;
+    margin: 8px;
+    height: auto;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.career-card:hover {
+    background: #F9F9F9;
+}
+.career-card-wrapper {
+    width: 50%;
+}
+.career-card h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    height: max-content;
+}
+.career-card h4 {
+    font-weight: 300;
+}
+.career {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.career h1 {
+    padding-bottom: 24px;
+}
+.career h2 {
+    padding: 48px 0 24px 0;
+}
+.career h4 {
+    font-weight: 300;
+}
+.career p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.career li {
+    font-size: 16px;
+    line-height: 28px;
+}
+.career li:not(:last-child) {
+    margin-bottom: 12px;
+}
+.career li:before {
+    content: url("../images/design/circle-check-regular.svg");
+    display: inline-block;
+    width: 16px;
+    padding-right: 8px;
+    top: 2px;
+    position: relative;
+}
+.send-cv-button {
+    margin-top: 8px;
+}
+.career-content {
+    margin-top: 48px;
+}
+.apply-cv-text {
+    margin-top: 24px;
+}
+.careers-title-description {
+    padding: 20px 0 36px;
+}
+@media (max-width: 1000px) {
+    .career-card h2 {
+        font-size: 20px;
+    }
+    .career li {
+        font-weight: 300;
+    }
+}
+@media (max-width: 950px) {
+    .career-card h4 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px) {
+    .career-top-section {
+        flex-direction: column;
+    }
+    .career-top-section button {
+        margin-top: 36px;
+    }
+    .career-card h4 {
+        font-size: 12px;
+    }
+}
+@media (max-width: 700px) {
+    .career-card {
+        margin: 4px;
+    }
+    .career-card h2 {
+        font-size: 16px;
+    }
+    .career li {
+        font-size: 14px;
+    }
+    .apply-cv-text {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 650px) {
+    .career-card-wrapper {
+        width: 100%;
+    }
+    .careers-container p {
+        font-size: 14px;
+        padding: 0 24px;
+    }
+    .careers-title-description {
+        padding: 20px 0;
+    }
+    .career h1 {
+        font-size: 28px;
+    }
+    .career p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
